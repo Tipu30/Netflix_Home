@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Netflix</title>
+
+    <link rel="bootstrap-icons" href="../public/assets/Netflix-fevicon.ico">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <style>
+        body {
+            background-image: url("../assets/ntflxx.png");
+            background-size: cover;
+            color: white;
+        }
+
+        .shade {
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 720px;
+
+
+        }
+
+        h1 {
+            font-family: Arial;
+            font-size: 50px;
+            font-weight: 800;
+            width: 600px;
+            text-align: center;
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        .Brand-Name {
+            display: flex;
+            float: left;
+            height: 50px;
+            margin-left: 20px;
+
+        }
+
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+
+        }
+
+        select {
+            margin-right: 20px;
+        }
+
+        .login-group {
+            display: flex;
+            height: 40px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        nav a img {
+            width: 150px;
+            margin-left: 40px;
+        }
+
+        #input {
+            height: 50px;
+        }
+
+        #sign-in {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shade">
+        <header>
+            <nav>
+                <a href="#"><img src="https://tinyurl.com/netflixsvglogo" alt="logo"></a>
+            </nav>
+
+            <div class="login-group">
+                <Select class="form-select">
+                    <option>Language</option>
+                    <option>English</option>
+                </Select>
+                <button class="btn btn-danger"> SignIn </button>
+            </div>
+        </header>
+        <div class="main">
+            <div>
+                <h1>Unlimited movies, TV shows and more</h1>
+                <h4>Watch anywhere. Cancel anytime</h4>
+                <p style="font-size: larger;">Ready to watch ? Enter your email to create or restart your membership.
+                </p>
+                <div class="input-group" id="input">
+                    <input type="email" placeholder="your email address" class="form-control">
+                    <button class="btn btn-danger ms-2">
+                        Get Started<span class="bi bi-chevron-right"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
